@@ -1,0 +1,57 @@
+<form method ="post" action="test.php">
+    <label for="prénom"> Athlète : </label>
+    <input type="text" id="prenom"> <br>
+    <input type="radio" name="Type de classement" id="individuel" value="individuel">
+    <label for="individuel"> Individuel </label>
+    <input type="radio" name="par équipe" id="ar équipe" value="par équipe"> 
+    <label for="par équipe"> Par équipe </label>
+
+
+    	<p> Médaille : </p>
+    	<label for ="or"> Or </label> 
+    	<input type="checkbox" name="médaille[]" id="or" value="Or" > <br>
+     	<label for ="argent"> Argent </label> 
+    	<input type="checkbox" name="médaille[]" id="argent" value="Argent"> <br >
+        <label for ="bronze"> Bronze </label> 
+    	<input type="checkbox" name="médaille[]" id="bronze" value="Bronze"> <br >
+    
+
+
+
+
+        <select>
+            <optgroup label="Jeux d'hiver">
+            <option value ="biathlon"> Biathlon </option>
+            <option value ="bobsleigh"> Bobsleigh</option>
+            <option value ="combiné nordique"> Combiné nordique</option>
+            <option value ="curling"> curling </option>
+            <option value ="hockey sur glace"> Hockey sur glace </option>
+            <option value ="luge"> Luge </option>
+            <option value ="patinage artistique"> Patinage artistique </option>
+            <option value ="patinage de vitesse"> Patinage de vitesse </option>
+        </optgroup>
+
+
+            <optgroup label="Jeux d'été">
+            <option value ="athlétisme">Athlétisme</option>
+            <option value ="aviron"> Aviron </option>
+            <option value ="badminton"> Badminton </option>
+            <option value ="baseball softball"> Baseball softball </option>
+            <option value ="basketball"> Basketball </option>
+            <option value ="basketball 3*3"> Basketball 3*3 </option>
+            <option value ="boxe"> Boxe </option>
+            <option value ="breaking"> Breaking </option>
+        </optgroup>
+            </select> 
+            
+
+
+    <label for="nom">Nom : </label>
+    <input type="text " id="nom" br> <br>
+    <label for="email">e-mail: </label>
+        <input type="text" id="email" ><br>
+    	<input type="radio" name="sexe" id="homme" value="homme">
+    	<label for="homme">Homme </label>
+    	<input type="radio" name="sexe" id="femme" value="femme"> 
+        <label for="femme">Femme </label>
+</form>
